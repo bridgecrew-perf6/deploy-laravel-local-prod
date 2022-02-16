@@ -1,4 +1,4 @@
-# deploy-laravel-local-prod
+# Deploy Laravel From Local to Prod with docker
 deploy laravel from local to prod with docker
 stack
   - php
