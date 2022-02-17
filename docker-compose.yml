@@ -7,9 +7,9 @@ services:
     volumes:
       - './data:/var/lib/postgresql/data'
     environment:
-      - POSTGRES_USER=joni
-      - POSTGRES_PASSWORD=joni
-      - POSTGRES_DB=gpromin
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=secret
+      - POSTGRES_DB=laravel
     ports:
       - '5434:5432'
     restart: always
